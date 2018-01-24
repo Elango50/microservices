@@ -1,0 +1,7 @@
+applications:
+- name: second-service
+  memory: 1024M
+  host: mySecond
+  path: target/secondMicroService-0.0.1-SNAPSHOT.jar
+services:
+    - Services

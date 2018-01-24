@@ -1,0 +1,7 @@
+applications:
+- name: first-service
+  memory: 1024M
+  host: myFirst
+  path: target/firstMicroService-0.0.1-SNAPSHOT.jar
+services:
+    - Services

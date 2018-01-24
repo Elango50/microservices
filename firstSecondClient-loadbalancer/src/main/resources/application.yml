@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: third-client
+server:
+  port: 2222
+security:
+  basic:
+    enabled: false

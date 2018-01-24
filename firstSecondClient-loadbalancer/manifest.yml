@@ -1,0 +1,7 @@
+applications:
+- name: third-service
+  memory: 1024M
+  host: myThird
+  path: target/thirdMicroService-0.0.1-SNAPSHOT.jar
+services:
+    - Services

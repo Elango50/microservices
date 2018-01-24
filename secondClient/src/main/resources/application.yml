@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: first-client
+server:
+  port: 2222
+security:
+  basic:
+    enabled: false
